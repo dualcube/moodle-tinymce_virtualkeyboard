@@ -6,6 +6,6 @@ List of changes:
 * Add keyboard display functionality with the TinyMCE toolbar button.
 
 Installation Steps:
-* Add files to lib/editor/tinymce/plugins/.
+* Add files to /tinymce/plugins/.
 * Install and upgrade the database.
 * Add "keyboard" button in the editor toolbar from TinyMCE settings
