@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>tinymce/js/</location>
+    <name>HTML Virtual Keyboard Interface Script</name>
+    <license>BSDL</license>
+    <version>v1.49</version>
+    <licenseversion></licenseversion>
+  </library>
+</libraries>
