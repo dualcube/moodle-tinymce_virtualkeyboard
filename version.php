@@ -26,5 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version   = 2015061800;
 // Required Moodle version.
 $plugin->requires  = 2013051400;
+$plugin->release = '1.0';
+$plugin->maturity = MATURITY_STABLE;
 // Full name of the plugin (used for diagnostics).
 $plugin->component = 'tinymce_virtualkeyboard';
