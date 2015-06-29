@@ -13,9 +13,17 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+/**
+ * virtual keyboard addons for tinyMCE editor
+ *
+ * @package   tinymce_virtualkeyboard
+ * @copyright 2015 Arkaprava Midya
+ * @author    Dualcube
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 defined('MOODLE_INTERNAL') || die();
 /**
- * Plugin for virtual keyboard.
+ * Plugin for tinymce virtual keyboard.
  *
  * @package   tinymce_virtualkeyboard
  * @copyright 2015 Arkaprava Midya
@@ -25,6 +33,14 @@ defined('MOODLE_INTERNAL') || die();
 class tinymce_virtualkeyboard extends editor_tinymce_plugin {
     /** @var array list of buttons defined by this plugin */
     protected $buttons = array('keyboard');
+    /**
+     * This load require js files and update the init parameters.
+     *
+     * @param array $params
+     * @param context $context
+     * @param array $options display options: null
+     * @return void
+     */
     protected function update_init_params(array &$params, context $context,
             array $options = null) {
         global $PAGE, $CFG;
@@ -34,6 +50,11 @@ class tinymce_virtualkeyboard extends editor_tinymce_plugin {
         // Add JS file, which uses default name.
         $this->add_js_plugin($params);
     }
+    /**
+     * Get sort order.
+     *
+     * @return 110
+     */
     protected function get_sort_order() {
         return 110;
     }
