@@ -17,16 +17,16 @@
  * TinyMCE virtualkeyboard plugin version details.
  *
  * @package   tinymce_virtualkeyboard
- * @copyright 2015 Arkaprava Midya
+ * @copyright 2022 Dualcube
  * @author    Dualcube
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
 // The current plugin version (Date: YYYYMMDDXX).
-$plugin->version   = 2015061801;
+$plugin->version   = 2022050601;
 // Required Moodle version.
 $plugin->requires  = 2013051400;
-$plugin->release = '1.0';
+$plugin->release = '1.1';
 $plugin->maturity = MATURITY_STABLE;
 // Full name of the plugin (used for diagnostics).
 $plugin->component = 'tinymce_virtualkeyboard';
