@@ -22,7 +22,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-$plugin->component = 'tinymce_virtualkeyboard';.
+$plugin->component = 'tinymce_virtualkeyboard';
 $plugin->version   = 2023031700;
 $plugin->requires  = 2013051400;
 $plugin->maturity = MATURITY_STABLE;
