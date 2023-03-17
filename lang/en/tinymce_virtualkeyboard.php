@@ -17,8 +17,8 @@
  * Strings for Moodle Vortual Keyboard plugin.
  *
  * @package   tinymce_virtualkeyboard
- * @copyright 2015 Arkaprava Midya
- * @author    Dualcube
+ * @author DualCube <admin@dualcube.com>
+ * @copyright  2022 DualCube (https://dualcube.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 $string['pluginname'] = 'Virtual Keyboard';

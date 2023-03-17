@@ -17,19 +17,11 @@
  * virtual keyboard addons for tinyMCE editor
  *
  * @package   tinymce_virtualkeyboard
- * @copyright 2015 Arkaprava Midya
- * @author    Dualcube
+ * @author DualCube <admin@dualcube.com>
+ * @copyright  2022 DualCube (https://dualcube.com)
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();
-/**
- * Plugin for tinymce virtual keyboard.
- *
- * @package   tinymce_virtualkeyboard
- * @copyright 2015 Arkaprava Midya
- * @author    Dualcube
- * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 class tinymce_virtualkeyboard extends editor_tinymce_plugin {
     /** @var array list of buttons defined by this plugin */
     protected $buttons = array('keyboard');
