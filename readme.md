@@ -38,7 +38,7 @@ Installation
 
 Requirements
 ------------
-* Moodle 2.5.0 - 4.1s
+* Moodle 2.5.0 - 4.1.X
 
 
 
