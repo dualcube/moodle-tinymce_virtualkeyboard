@@ -38,8 +38,7 @@ Installation
 
 Requirements
 ------------
-* Moodle 2.5.0 - 4.1
-* Authorize.net account
+* Moodle 2.5.0 - 4.1s
 
 
 
