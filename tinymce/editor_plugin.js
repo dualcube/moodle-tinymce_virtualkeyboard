@@ -1,8 +1,8 @@
 /**
  * TinyMCE plugin Virtual Keyboard
  *
- * Copyright 2015, Arkaprava Midya
- * Author    Dualcube
+ * Copyright 2022 DualCube (https://dualcube.com)
+ * Author    DualCube <admin@dualcube.com>
  * License   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 (function() {
@@ -25,8 +25,8 @@
 		getInfo : function() {
 			return {
 				longname : 'Virtual Keyboard',
-				author : 'Arkaprava Midya',
-                version : '1.0' // Version of Virtual Keyboard plugin this plugin is based on.
+				author : 'DualCube',
+                version : '1.2' // Version of Virtual Keyboard plugin this plugin is based on.
 			};
 		}
 	});
