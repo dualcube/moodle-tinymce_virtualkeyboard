@@ -23,7 +23,7 @@
  */
 defined('MOODLE_INTERNAL') || die();
 $plugin->component = 'tinymce_virtualkeyboard';
-$plugin->version   = 2023032000;
+$plugin->version   = 2023042500;
 $plugin->requires  = 2013051400;
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = '1.2 (Build: 2023031700)';
+$plugin->release = '1.3 (Build: 2023042500)';
